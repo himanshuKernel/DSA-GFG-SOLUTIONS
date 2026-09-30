@@ -1,7 +1,6 @@
 class Solution {
   public:
     vector<int> fibonacciNumbers(int n) {
-        // code here
         // Base cases
                 if (n == 1) return {0};
                 if (n == 2) return {0, 1};
